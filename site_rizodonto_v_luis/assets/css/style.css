@@ -1,0 +1,33 @@
+.ajTextMenu{
+    position: relative;
+    padding: 0px 0px 0px 5px;
+    top: 40px;
+}
+
+
+@media (min-width: 768px){
+    
+}
+
+.texto_fff{
+    color: #FFFFFF;
+}
+
+.texto_6{
+    color: #666666;
+    text-align: center;
+}
+
+.texto_6_1{
+    color: #666666;
+}
+
+.aj-texto{
+    margin: 0 0 3px;    
+    font-size: 11px;
+}
+
+.texto_alerta_0{
+    color:#f00;
+    font-style: italic;
+}

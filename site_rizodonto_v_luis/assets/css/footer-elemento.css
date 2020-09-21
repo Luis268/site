@@ -1,0 +1,128 @@
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -276px; 
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+  .site-footer, .page-wrap:after {
+    height: 276px; 
+  }
+  .site-footer {/* 
+      position: absolute;
+      bottom: 0; */
+      width: 100%;
+  }
+  
+  .b-footer{
+      background-color: #015d72;
+  }
+  
+  .img_logo_rodape{
+      width: 100%;    
+      padding: 45px 0px 0px 0px;
+  }
+  
+  .b-footer-elemento{
+      font-size: 16px;
+      font-weight: bold;
+  }
+  
+  #ajTextoHomeSobre{
+      margin: -10px auto 0px auto;
+      line-height: 28px;
+      /* width: 430px; */
+  }
+  
+  .linha_sep_horizontal{
+      height: 2px;
+      border: none;
+      background-color: rgb(21,106, 126);
+  }
+  
+  .linha_horizontal_bottom{
+      width: 100%;
+      height: 2px;
+      border: none;
+      background-color: rgb(7, 67, 78);
+  }
+  
+  .linha_sep_vertical{
+      float: left;
+      width: 2px;
+      height: 110px;
+      position: absolute;
+      border: none;
+      background-color: rgb(21,106, 126 );
+      top: -31px;
+  }
+  
+  #posicao_sep_vertical{
+      left: -5px;
+  }
+  
+  .ajuste_hover_footer:hover{
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      background-color: rgb(7, 67, 78);
+  }
+
+.b-footer-tel{
+    line-height: 35px;
+}
+
+.b-footer-rede > a{
+    color: #fff;
+    float: left;
+    width: 10%;
+    margin-left: 23px;
+}
+
+.b-footer-rede > a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 991px){
+    .b-footer-img{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img_logo_rodape {
+        width: 65%;
+        padding: 5px 0;
+    }
+
+    .b-footer-elemento {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+}
+
+/* POPUP */
+
+.wrap{
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+    z-index: 999; 
+    
+    
+}
+
+.wrap > .popup{
+    background-color: rgba(255,255,255, .8);
+    padding: 12px;
+    border-radius: 5px;   
+    /* width: 450px; */
+    box-shadow: 0.2em 0.2em 0.2em #000;
+}
+
+.ativo{
+    display: none;
+}

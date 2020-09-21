@@ -1,0 +1,119 @@
+/* header */
+
+#text_left{
+    margin-top: 6px;
+}
+
+#img_whats{
+	float: initial;
+    margin: -9px 2px -8px 0px;
+    padding: 1px;
+}
+
+#b-img-header{
+    width: 95%;	
+}
+
+@media (max-width:768px){
+    #b-img-header{
+        float: left;
+        margin: 2px auto 0 5px;
+        width: 150px;
+    }
+
+    .aj-texto{
+        text-align: center !important;
+    }
+}
+
+
+
+#color_top_header{
+	float: initial;
+	background-color: #2dadd4;
+	color: #FFFFFF;
+    height: auto;
+}
+
+.imageMenu{        
+    background-image: url('http://www.rizodonto.com.br/img/icon_menu.png');
+    background-position: center;
+}
+
+
+.nav-link{
+    background-image: url('http://www.rizodonto.com.br/img/icon_menu.png');
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: relative;
+    height: 80px;
+    padding: 55px 10px 9px 13px;
+
+}
+
+.nav-link:hover{
+    background-image: url('http://www.rizodonto.com.br/img/icon_menu_activo.png');
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: relative;
+
+}
+
+.navbar-light .navbar-nav .active>a,
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover{
+
+    color: #38626e;
+    /* font-weight: 600; */
+    background-color: #efefef;
+    border-bottom: 4px solid rgb(236, 27, 33);
+    background-image: url("http://www.rizodonto.com.br/img/icon_menu_activo.png");
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: relative;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(56,98,110,1);
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 6rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+}
+
+
+.navbar-light .navbar-nav > li > a {
+	color: #38626e;
+}
+
+.navbar-light .navbar-nav > li > a.nav-link:hover{
+	color: #38626e;
+    font-weight: 500;
+    background-color: #efefef;
+    border-bottom: 4px solid rgb(236, 27, 33);
+}
+
+.navbar-light {
+	margin-bottom: 0px;
+}

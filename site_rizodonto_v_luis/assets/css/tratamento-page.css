@@ -1,0 +1,43 @@
+.b_tratamentos{       
+    margin-bottom: 80px;
+}
+
+.t_titulo{
+    position: relative;
+    top: 2px;
+}
+
+.t_descricao{
+    font-size: 13px;
+}
+
+.t_imagens{
+    border: 2px solid #5cc6a2;
+}
+.texto_c > h5 > b{
+    font-size: 14px;
+}
+
+
+.texto_c > p{
+    width: 100%;
+   float: left;
+   text-align: center;
+   margin-top: 55px;
+}
+
+
+@media (max-width: 767px){
+    .b_tratamentos{
+        background: #5cc6a2 !important;
+        height: auto;
+        float: left;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .t_titulo{
+        font-size: 1.3rem;
+    }
+   
+}

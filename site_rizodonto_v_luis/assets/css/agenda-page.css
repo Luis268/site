@@ -1,0 +1,148 @@
+.b-agenda{
+	float: left;
+	width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+.b-titulo-agenda{
+    float: left;
+    width: 100%;
+    padding: 9px 0 0 0;
+    
+}
+
+.t-texto > p{
+    padding: 25px 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.t-texto > h2{
+    /* font-size: 1.5rem; */
+    margin-top: 10px;
+}
+
+.b-agenda{
+    float: left;
+    margin-bottom: 85px;
+}
+
+.day {
+    color: #333;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.day:hover {
+    float: left;
+    width: 100%;
+    color: #555;
+    text-decoration: none;
+    
+    /* background-color: transparent; */
+    background-color: #ccc;
+}
+
+.hoje{
+    float: left;
+    width: 100%;
+    color: #f00;
+    text-decoration: none;
+    background-color: #ccc;
+}
+
+
+
+.b-select-agenda{
+    background: linear-gradient(to right, #fff 90%, #5cc6a2 45%);
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: inherit;
+    border: 1px solid #000;
+}
+
+.b-input-agenda{
+    float: left;
+    border: none;
+    border-bottom: 1px solid #999;
+    background-color: #fff;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px 0;
+}
+
+.b-aj-btn{
+    margin: 40px 0;
+}
+
+
+
+.calendario{
+    /*margin:  40px 0 0 0;*/
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.calendario .mes{
+    display: none;
+}
+
+.calendario td{
+    padding: 5px;
+    background-color: #f0f0f0;
+}
+
+.calendario .mes_title{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.calendario .mes_title td{
+    padding: 30px 0 0 0;
+    font-size: 22px;
+    height: 100px;
+    background-color: #5cc6a2;
+    color: #ffffff;
+}
+
+.calendario .dias_title{
+    font-size: 13px;
+    background-color: #999;
+    float: initial;
+    position: relative;
+    z-index: 1;
+}
+
+.calendario #voltar, .calendario #proximo{
+    padding: 5px 8px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+}
+
+.calendario #voltar{
+    left: 15px;
+    top: 35px;
+    font-size: 22px;
+}
+
+.calendario #proximo{
+    right: 15px;
+    top: 35px;
+    font-size: 22px;
+}
+
+@media (max-width: 768px){
+    .t-texto > h2{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+}
+
+
